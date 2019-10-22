@@ -1,4 +1,4 @@
 const a=10;
 const b=20;
 c=a+b;
-console.log("Total"+c);
+console.log("Total is:"+c);
