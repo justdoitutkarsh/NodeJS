@@ -1,4 +1,5 @@
-const a=10;
-const b=20;
-c=a+b;
-console.log("Total is:"+c);
+const timer = delay => {
+    console.log('Hello after ' + delay + ' seconds');
+  };
+  setTimeout(timer, 4 * 1000, 4);
+  setTimeout(timer, 8 * 1000, 8);
